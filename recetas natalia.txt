@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+         p {
+             color: rgb(145, 20, 145);
+         }
+         body {
+            background: rgb(93, 222, 205);
+        }
+        #uno{
+            background: rgb(168, 168, 36);
+        }
+        #dos{
+            background: rgb(168, 168, 36);
+        }
+        #tres{
+            background: rgb(168, 168, 36);
+        }
+        h1 {
+            color: rgb(181, 181, 54);
+        }
+        </style>
+    </head>
+    <body>
+       
+        <h1>Natalia's Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <li><a href="#uno">Recipe #1: pizza</a></li>
+            <li><a href="#dos">Receta #2: macarrones con tomate</a></li>
+             <li><a href="#tres">Receta #3: tortilla de patatas</a></li>
+        </ol>
+        
+        <h2 id="uno">Recipe #1</h2>
+        
+        <ul>
+            <li>Time: 15 min</li>
+            <li>Serves: 6 </li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+             <tr>
+                    <td>harina de trigo</td>
+                    <td>400 gramos</td>
+                </tr>
+                <tr>
+                    <td>agua</td>
+                    <td>200 ml</td>
+                </tr>
+                 <tr>
+                    <td>levadura</td>
+                    <td>15 gramos</td>
+                </tr>
+                <tr>
+                    <td>aceite de oliva</td>
+                    <td>2 cucharadas</td>
+                </tr>
+                <tr>
+                    <td>sal</td>
+                    <td>1 pizca</td>
+                </tr>
+            </tbody>
+        </table>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Eataly_Las_Vegas_-_Feb_2019_-_Sarah_Stierch_12.jpg" width="200">
+        
+        <p><strong>Paso 1:</strong>
+        En un bol agregamos el <em>aceite, el agua y la levadura</em>. Mezclamos y le añadimos la <em>harina y la pizca de sal</em>. Una vez que lo tengamos mezclado todo, lo sacamos del bol para amasar bien.
+</p>
+        <p><strong>Paso 2:</strong>
+        Ahora comienza el <em>amasado</em>. Ponemos un poco de harina en la encimera y tendremos que amasar como 3 o 4 minutos <em>sin parar.</em> Veremos que hemos terminado cuando la masa esté lisa totalmente, si se pega mucho le ponemos un poco de harina y seguimos hasta que quede lisa.</p>
+        <p><strong>Paso 3:</strong> Ahora una vez lista, la dejamos <em>reposar durante 1 hora</em> más o menos. Una vez reposada la partimos en dos si queremos hacer dos pizzas. La amasamos y estiramos. Ponemos los ingredientes y al horno.</p>
+    <p><em>Fuente: <a href="https://recetasdecocina.elmundo.es/2025/07/masa-de-pizza-casera-receta-facil.html">Masa de pizza casera</a></em></p>
+    
+     <h2 id="dos">Recipe #2</h2>
+        
+        <ul>
+            <li>Time: 25 min</li>
+            <li>Serves: 4 </li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredientes</th>
+                    <th>Cantidad</th>
+                </tr>
+            </thead>
+            <tbody>
+             <tr>
+                    <td>macarrones</td>
+                    <td>500 g</td>
+                </tr>
+                <tr>
+                    <td>chorizo</td>
+                    <td>150 g</td>
+                </tr>
+                 <tr>
+                    <td>ajos</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>tomate frito</td>
+                    <td>350 g</td>
+                </tr>
+            </tbody>
+        </table>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Macarrones_con_chorizo-2009.jpg" width="200">
+        <p><strong>Paso 1:</strong>
+            Corta el chorizo en rodajas o en dados pequeños. Incorpóralo a la cazuela con los ajos troceados en rodajas y rehoga durante unos minutitos a fuego medio, hasta que cambie de color.
+        </p>
+         <p><strong>Paso 2:</strong>
+            Vierte el tomate triturado en la cazuela y mezcla bien. Añade sal y cocina a fuego medio-bajo, removiendo de vez en cuando, hasta que la salsa espese ligeramente.
+        </p>
+        <p><strong>Paso 3:</strong>
+        Mientras se cocina la salsa, pon a hervir abundante agua con sal en una olla grande. Cuando rompa a hervir, añade los macarrones y cuécelos según las indicaciones del paquete (normalmente 10-12 minutos) hasta que estén al dente.
+         </p>
+        <p><strong>Paso 4:</strong>
+        Ve escurriendo los macarrones con un colador y añádelos directamente a la cazuela con la salsa de chorizo. Mezcla bien y menea con una cuchara de madera para que la pasta se ligue perfectamente con la salsa y se impregne de todos los sabores. </p>
+         <p><em>Fuente: <a href="https://amimaneracocinando.com/macarrones-con-chorizo-receta-facil-sabrosa/">Macarrones con chorizo y tomate</a></em></p>
+         
+         <h2 id="tres">Recipe #3</h2>
+        
+        <ul>
+            <li>Time: 20 min</li>
+            <li>Serves: 5 </li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredientes</th>
+                    <th>Cantidad</th>
+                </tr>
+            </thead>
+            <tbody>
+             <tr>
+                    <td>huevos</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>patatas</td>
+                    <td>800 g</td>
+                </tr>
+                 <tr>
+                    <td>sal</td>
+                </tr>
+                <tr>
+                    <td>aceite</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Tortilla_de_Patatas_%28Corte_transversal%29.jpg" width="200">
+        <p><strong>Paso 1:</strong>
+        Calentamos aceite en la sarten y mientras pelamos las patatas y las cortamos en láminas de unos 4 o 5 mm de grosor.</p> 
+        
+        <p><strong>Paso 2:</strong> Ponemos las patatas en la sartén y dejamos a fuego bajo/medio hasta que estén bien blandas. Al final subimos el fuego para que pardeen un poco. Sacamos a un colador para que escurran todo el aceite posible.</p>
+<p><strong>Paso 3: </strong>
+Batimos los 6 huevos y los juntamos en un cuenco con las patatas y la sal. Dejamos al menos veinte minutos para que las patatas se impregnen bien.</p>
+<p><strong> Paso 4: </strong>
+Finalmente, ponemos a fuego fuerte la sartén en la que vamos a cuajar la tortilla con un chorrito de aceite. Cuando esté bien caliente echamos la mezcla y con una espátula vamos dando forma al borde. Tras un par de minutos damos la vuelta ayudándonos de un plato o una tapa plana y mantenemos otro par de minutos.</p>
+     <p><em>Fuente: <a href="https://dorarnosella.com/2012/04/01/tortilla-de-patatas/">Tortilla de patatas</a></em></p>
+    </body>
+</html>
